@@ -1,7 +1,6 @@
 require('./users');
 const mongoose = require('mongoose');
-const dbURI = 'mongodb+srv://USERNAME:PASSWORD@pixgram.zk21o.gcp.mongodb.net/DBNAME?retryWrites=true&w=majority';
-//'mongodb://localhost:27017/ekatee';
+const dbURI = 'mongodb+srv://USERNAME:PASSWORD@CLUSTER.zk21o.gcp.mongodb.net/DBNAME?retryWrites=true&w=majority';
 
 mongoose.set('useCreateIndex', true);
 mongoose.connect(dbURI, {
